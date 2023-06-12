@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Joshua Taylor&#39;s Home Page</title>
-    <link>uildAll/posts/</link>
+    <link>https://jdtaylor.net/posts/</link>
     <description>Recent content in Posts on Joshua Taylor&#39;s Home Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 22:37:33 -0400</lastBuildDate><atom:link href="uildAll/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 22:37:33 -0400</lastBuildDate><atom:link href="https://jdtaylor.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FL Studio, MIDI Export, and Weak Pitch Bends</title>
-      <link>uildAll/posts/flstudio-midi/</link>
+      <link>https://jdtaylor.net/posts/flstudio-midi/</link>
       <pubDate>Fri, 09 Jun 2023 22:37:33 -0400</pubDate>
       
-      <guid>uildAll/posts/flstudio-midi/</guid>
+      <guid>https://jdtaylor.net/posts/flstudio-midi/</guid>
       <description>The way FL Studio exports to midi files is fine for the most part, except when it comes to pitch bends. This becomes a problem when a fella like me wants to create midis for use in retro games, especially when it comes to crafting them for ADLIB/OPL chips.
 Here is a simple pitch bend automation in FL Studio. The guitar should bend up a whole note. And it works just fine while composing inside FL Studio on a Midi Out.</description>
     </item>
