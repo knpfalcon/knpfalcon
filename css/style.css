@@ -1,22 +1,27 @@
 body {
-    background: rgb(198, 198, 198);
+ 
     font-size: 14pt;
-    max-width: 800px;
+    max-width: 600px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     margin: 0 auto;
     line-height: normal;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+    background-image: url(/img/stars.gif);
+    background-repeat: repeat;
 }
 
 h1 {
     font-size: 30pt;
     margin-bottom: 0px;
     font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Helvetica, Sans-Serif;
 }
 
 h2 {
     font-size: 28pt;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Helvetica, Sans-Serif;
 }
 
 h3 {
@@ -26,16 +31,21 @@ h3 {
     margin: auto;
     margin-top: 48px;
     text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Helvetica, Sans-Serif;
+    color: rgb(255, 155, 33);
 }
 
 p {
     margin-top: 0px;
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: justify;
 }
 
 p > code {
-  color: rgb(37, 55, 114);
+    color: rgb(255, 198, 128);
 }
 
 ul {
@@ -44,16 +54,35 @@ ul {
     margin: 0;
 }
 
-a
-{
-    text-transform: uppercase;
+h1 > a{
     text-decoration: none;
+    color: rgb(255, 155, 33);
+}
+
+a{
+    color: rgb(255, 160, 45);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 200, 134);
+    
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    border-style: inset;
+    max-width: 90%;  
+    height: auto;  
+    margin: 0 auto;
 }
 
 .subtitle
 {
     margin-bottom: 0px;
     font-style: italic;
+    color: darkgray;
 }
 
 .content {
@@ -68,7 +97,11 @@ a
 
 .stuff {
     margin: 0 auto;
-    margin-bottom: 20px;
+    background-color: rgba(32, 32, 32, 0.75);
+    color: rgb(209, 209, 209);
+    max-width: 600px;
+    border-style: inset;
+    margin-bottom: 5px;
     padding: 10px;
 }
 
@@ -83,16 +116,9 @@ a
 
 .right {
     text-align: right;
-    margin: auto;
+    margin-top: 0;
 }
 
-img {
-    display: block;
-    border-style: inset;
-    max-width: 100%;  
-    height: auto;  
-    margin: 0 auto;
-}
 
 .highlight {
     border-style: inset;
@@ -103,4 +129,13 @@ img {
 .smalltime {
     font-size: 10pt;
     font-style: italic;
+}
+
+
+
+.sound audio {
+    outline: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
 }
