@@ -85,6 +85,8 @@ a
 img {
     display: block;
     border-style: inset;
+    max-width: 100%;  
+    height: auto;  
     margin: 0 auto;
 }
 
