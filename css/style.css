@@ -101,9 +101,6 @@ img {
 }
 
 .smalltime {
-    display: inline;
-    font-size: 12pt;
+    font-size: 10pt;
     font-style: italic;
-    font-weight: bold;
-    margin: auto auto;
 }

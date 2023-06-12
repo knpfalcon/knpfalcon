@@ -30,10 +30,10 @@
 <p><img src="pitch.png" alt="Guitar Pitch"></p>
 <p>Let’s export this song to a midi file and re-import it.</p>
 <p><img src="midichanpitch.png" alt="Midi Channel Pitch"></p>
-<p>I coded a quick midi player with <code>Allegro 4.2.3</code> and <code>DJGPP</code> and opened it in <code>Dosbox-X</code>. The pitch bend is weak! Sounds awful!
+<p>I coded a quick midi player with <code>Allegro 4.2.3</code> and <code>DJGPP</code> and opened it in <code>Dosbox-X</code>. The pitch bend is weak! Sounds awful!</p>
 <div class="center">
 <div class="audio">
-<audio controls style="width: 50%; margin: auto;">
+<audio controls style="width: 75%; margin: auto;">
     
     
     <source type="audio/mpeg" src="weak.mp3">
@@ -41,14 +41,14 @@
 </audio>
 </div>
 </div>
-</p>
+
 <p>For a while, I accused several innocent pieces of software. But after a lot of googling and tinkering, it turns out it’s just how <code>FL Studio</code> assumes pitch bends. But the solution was simple enough.</p>
 <p>With the help of a nifty program called <a href="https://openmidiproject.opal.ne.jp/Sekaiju_en.html">Sekaiju</a>, I opened the midi after exporting it from <code>FL Studio</code>, and I was able to show only the pitch events for the guitar track.</p>
 <p><img src="sekaijonlypitchevent.png" alt="Shoe Only Pitch Events"></p>
 <p><img src="sekaijupitch.png" alt="Sekaiju Pitch Values"></p>
 <p>They looked a little low, and I wanted to crank them up! So after a quick <code>CTRL-A</code>, I found a tool in the <code>Edit</code> menu called <code>Modify Event’s Value…</code></p>
 <p><img src="sekaijedit.png" alt="Modify Event’s Value"></p>
-<p>I switched the <code>Unit</code> to <code>Percent</code>, and unchecked everything but <code>Pitch</code> in <code>Target</code>. I cranked the <code>Amount</code> to <code>1000</code>.</p>
+<p>I switched the <code>Unit</code> to <code>Percent</code> and unchecked everything but <code>Pitch</code> in <code>Target</code>. I cranked the <code>Amount</code> to <code>1000</code>.</p>
 <p><img src="modifyevents.png" alt="Crank Up That Pitch!"></p>
 <p>All better! Those values are maxed!</p>
 <p><img src="allbetter.png" alt="All Better!"></p>
@@ -57,7 +57,7 @@
 <p>Sounds wonderful now! I love a good pitch bend.</p>
 <div class="center">
 <div class="audio">
-<audio controls style="width: 50%; margin: auto;">
+<audio controls style="width: 75%; margin: auto;">
     
     
     <source type="audio/mpeg" src="good.mp3">
@@ -66,7 +66,7 @@
 </div>
 </div>
 
-<p>This is one of those obscure problems with little helpful information, so I sincerely hope this helps someone out there.</p>
+<p>This is one of those obscure problems with little helpful information on the internet, so I sincerely hope this helps someone out there.</p>
 
 		</div>
 	</article>
