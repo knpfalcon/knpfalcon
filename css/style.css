@@ -1,6 +1,6 @@
 body {
     background: rgb(198, 198, 198);
-    font-size: 16pt;
+    font-size: 14pt;
     max-width: 800px;
     margin: 0 auto;
     line-height: normal;
@@ -8,19 +8,19 @@ body {
 }
 
 h1 {
-    font-size: 34pt;
+    font-size: 32pt;
     margin-bottom: 0px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif
 }
 
 h2 {
-    font-size: 30pt;
+    font-size: 28pt;
     font-family: 'Times New Roman', Times, serif
 }
 
 h3 {
-    font-size: 22pt;
+    font-size: 20pt;
     padding: 12px;
     text-align: center;
     margin: auto;
@@ -32,6 +32,10 @@ h3 {
 p {
     margin-top: 0px;
     margin-bottom: 24px;
+}
+
+p > code {
+  color: rgb(37, 55, 114);
 }
 
 ul {

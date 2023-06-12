@@ -6,11 +6,11 @@
     <description>Recent content in Posts on Joshua Taylor&#39;s Home Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 22:37:33 -0400</lastBuildDate><atom:link href="https://jdtaylor.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 02:53:00 +0000</lastBuildDate><atom:link href="https://jdtaylor.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FL Studio, MIDI Export, and Weak Pitch Bends</title>
+      <title>Weak MIDI Pitch Bends in FL Studio</title>
       <link>https://jdtaylor.net/posts/flstudio-midi/</link>
-      <pubDate>Fri, 09 Jun 2023 22:37:33 -0400</pubDate>
+      <pubDate>Mon, 12 Jun 2023 02:53:00 +0000</pubDate>
       
       <guid>https://jdtaylor.net/posts/flstudio-midi/</guid>
       <description>The way FL Studio exports to midi files is fine for the most part, except when it comes to pitch bends. This becomes a problem when a fella like me wants to create midis for use in retro games, especially when it comes to crafting them for ADLIB/OPL chips.
