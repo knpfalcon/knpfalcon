@@ -1,0 +1,103 @@
+body {
+    background: rgb(198, 198, 198);
+    font-size: 16pt;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 34pt;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h2 {
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h3 {
+    font-size: 22pt;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.subtitle
+{
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.content {
+    text-indent: 30px;
+}
+
+.date {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.stuff {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.footer {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.right {
+    text-align: right;
+    margin: auto;
+}
+
+img {
+    display: block;
+    border-style: inset;
+    margin: 0 auto;
+}
+
+.highlight {
+    border-style: inset;
+    font-size: 14pt;
+    margin: 12px;
+}
+
+.smalltime {
+    display: inline;
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto auto;
+}

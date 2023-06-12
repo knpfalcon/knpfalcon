@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Joshua Taylor&#39;s Home Page - FL Studio, MIDI Export, and Weak Pitch Bends</title>
+	<link rel="stylesheet" href="/uild/css/style.css">
+</head>
+
+<body>
+	<header>
+	<div class="center">
+		<h1>Joshua Taylor&#39;s Home Page</h1>
+		<span class = "subtitle">Coding, Music, Artwork, Games</span>
+	</div>
+</header>
+
+	
+<main>
+	<article>
+		<h3>FL Studio, MIDI Export, and Weak Pitch Bends</h3>
+		<div class="stuff">
+			<div class="date">
+				<time datetime=" 2023-06-09T22:37:33">June 9, 2023</time>
+			</div>
+			<p>The way <code>FL Studio</code> exports to midi files is fine for the most part, except when it comes to pitch bends. This becomes a problem when a fella like me wants to create midis for use in retro games, especially when it comes to crafting them for ADLIB/OPL chips.</p>
+<p>Here is a simple pitch bend automation in <code>FL Studio</code>. The guitar should bend up a whole note. And it works just fine while composing inside <code>FL Studio</code> on a <code>Midi Out</code>.</p>
+<p><img src="pitch.png" alt="Guitar Pitch"></p>
+<p>Let’s export this song to a midi file and re-import it.</p>
+<p><img src="midichanpitch.png" alt="Midi Channel Pitch"></p>
+<p>I coded a quick midi player with <code>Allegro 4.2.3</code> and <code>DJGPP</code> and opened it in <code>Dosbox-X</code>. The pitch bend is weak! Sounds awful!
+<div class="center">
+<div class="audio">
+<audio controls style="width: 50%; margin: auto;">
+    
+    <source type="audio/ogg" src="weak.ogg">
+    
+    Your browser does not support the audio element.
+</audio>
+</div>
+</div>
+</p>
+<p>For a while, I accused several innocent pieces of software. But after a lot of googling and tinkering, it turns out it’s just how <code>FL Studio</code> assumes pitch bends. But the solution was simple enough.</p>
+<p>With the help of a nifty program called <a href="https://openmidiproject.opal.ne.jp/Sekaiju_en.html">Sekaiju</a>, I opened the midi after exporting it from <code>FL Studio</code>, and I was able to show only the pitch events for the guitar track.</p>
+<p><img src="sekaijonlypitchevent.png" alt="Shoe Only Pitch Events"></p>
+<p><img src="sekaijupitch.png" alt="Sekaiju Pitch Values"></p>
+<p>They looked a little low, and I wanted to crank them up! So after a quick <code>CTRL-A</code>, I found a tool in the <code>Edit</code> menu called <code>Modify Event’s Value…</code></p>
+<p><img src="sekaijedit.png" alt="Modify Event’s Value"></p>
+<p>I switched the <code>Unit</code> to <code>Percent</code>, and unchecked everything but <code>Pitch</code> in <code>Target</code>. I cranked the <code>Amount</code> to <code>1000</code>.</p>
+<p><img src="modifyevents.png" alt="Crank Up That Pitch!"></p>
+<p>All better! Those values are maxed!</p>
+<p><img src="allbetter.png" alt="All Better!"></p>
+<p>Re-importing to <code>FL Studio</code> showed the pitch bend is correctly at 200 cents!</p>
+<p><img src="finalfl.png" alt="Importing to FL Studio a Final Time"></p>
+<p>Sounds wonderful now! I love a good pitch bend.</p>
+<div class="center">
+<div class="audio">
+<audio controls style="width: 50%; margin: auto;">
+    
+    <source type="audio/ogg" src="good.ogg">
+    
+    Your browser does not support the audio element.
+</audio>
+</div>
+</div>
+
+<p>This is one of those obscure problems with little helpful information, so I sincerely hope this helps someone out there.</p>
+
+		</div>
+	</article>
+</main>
+
+	<return>
+	<div class="right">
+		<a href="uild">Return Home</a>
+	</div>
+</return>
+	<footer>
+	<div class="center">&copy; 2023 Joshua Taylor</div>
+</footer>
+</body>
+
+</html>
