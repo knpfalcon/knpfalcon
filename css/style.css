@@ -3,13 +3,12 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0 auto;
-    line-height: normal;
     font-family: Consolas,Monospace,Courier;
     background: black;
     background-image: url(/img/stars.gif);
     background-repeat: repeat;
     background-attachment: fixed;
-    
+    font-size: 1rem;
 }
 
 h1 {
@@ -62,7 +61,7 @@ h1 > a{
 a{
     color: rgb(255, 160, 45);
     text-decoration: none;
-    font-weight:700;
+    font-weight:800;
 }
 
 a:hover{
@@ -170,14 +169,14 @@ ul#menu li {
         tab-size: 4;
 }
 
-@media(max-width:599px){body{max-width:80%}}
+@media(max-width:599px){body{max-width:90%}}
 
-@media(min-width:600px){body{max-width:80%}}
+@media(min-width:600px){body{max-width:90%}}
 
-@media(min-width:900px){body{max-width:80%}}
+@media(min-width:900px){body{max-width:90%}}
 
-@media(min-width:1440px){body{max-width:60%}}
+@media(min-width:1440px){body{max-width:50%}}
 
-@media(min-width:1920px){body{max-width:40%}}
+@media(min-width:1920px){body{max-width:50%}}
 
-@media(min-width:2560px){body{max-width:30%}}
+@media(min-width:2560px){body{max-width:50%}}
