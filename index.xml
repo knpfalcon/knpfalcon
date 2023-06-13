@@ -17,5 +17,16 @@
 Here is a simple pitch bend automation in FL Studio. The guitar should bend up a whole note. And it works just fine while composing inside FL Studio on a Midi Out.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://jdtaylor.net/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jdtaylor.net/about/</guid>
+      <description>I&amp;rsquo;m a follower of Jesus Christ, I&amp;rsquo;m married to a wonderful woman, and I do a lot of different things like programming, game development, artwork, music, writing. I have a love for old computers, and a deep nostalgia for the &amp;rsquo;90s.
+GitHub
+YouTube</description>
+    </item>
+    
   </channel>
 </rss>

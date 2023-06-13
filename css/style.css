@@ -1,12 +1,11 @@
 body {
  
-    font-size: 14pt;
     max-width: 600px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0 auto;
     line-height: normal;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Consolas,Monospace,Courier;
     background: black;
     background-image: url(/img/stars.gif);
     background-repeat: repeat;
@@ -15,25 +14,25 @@ body {
 }
 
 h1 {
-    font-size: 28pt;
+    font-size: 1.5rem;
     margin-bottom: 0px;
     font-weight: bolder;
-    font-family: Helvetica, Sans-Serif;
+    font-family: Consolas,Monospace,Courier;
 }
 
 h2 {
-    font-size: 24pt;
-    font-family: Helvetica, Sans-Serif;
+    font-size: 1.25rem;
+    font-family: Consolas,Monospace,Courier;
 }
 
 h3 {
-    font-size: 18pt;
+    font-size: 1.125rem;
     padding: 12px;
     text-align: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 8px;
     text-transform: uppercase;
-    font-family: Helvetica, Sans-Serif;
+    font-family: Consolas,Monospace,Courier;
     color: rgb(255, 155, 33);
 }
 
@@ -116,9 +115,16 @@ img {
     margin: 0 auto;
 }
 
-.nav {
-    margin-top: 0;
-    margin-bottom: 0;
+ul#menu {
+    margin-top: 20px;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+ul#menu li {
+    display:inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -157,4 +163,9 @@ img {
     text-align:right;
     width:33.33333%;
     margin-top: 0;
+}
+
+
+.tab {
+        tab-size: 4;
 }
