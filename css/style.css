@@ -1,7 +1,5 @@
 body {
- 
     max-width: 600px;
-    min-width: 600px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -64,6 +62,7 @@ h1 > a{
 a{
     color: rgb(255, 160, 45);
     text-decoration: none;
+    font-weight:700;
 }
 
 a:hover{
@@ -170,3 +169,15 @@ ul#menu li {
 .tab {
         tab-size: 4;
 }
+
+@media(max-width:599px){body{max-width:80%}}
+
+@media(min-width:600px){body{max-width:80%}}
+
+@media(min-width:900px){body{max-width:80%}}
+
+@media(min-width:1440px){body{max-width:60%}}
+
+@media(min-width:1920px){body{max-width:40%}}
+
+@media(min-width:2560px){body{max-width:30%}}
