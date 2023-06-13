@@ -1,5 +1,5 @@
 body {
-    max-width: 600px;
+    max-width: 700px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -39,7 +39,7 @@ p {
     margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 90%;
+    max-width: 98%;
     text-align: justify;
 }
 
@@ -99,7 +99,7 @@ img {
     margin: 0 auto;
     background-color: rgba(32, 32, 32, 0.75);
     color: rgb(209, 209, 209);
-    max-width: 600px;
+    max-width: 700px;
     border-style: inset;
     margin-bottom: 5px;
     padding: 10px;
@@ -145,38 +145,6 @@ ul#menu li {
     margin-bottom: 20px;
 }
 
-.alignleft {
-    float: left;
-    text-align:left;
-    width:33.33333%;
-    margin-top: 0;
-}
-.aligncenter {
-    float: left;
-    text-align:center;
-    width:33.33333%;
-    margin-top: 0;
-}
-.alignright {
-    float: left;
-    text-align:right;
-    width:33.33333%;
-    margin-top: 0;
-}
-
-
 .tab {
         tab-size: 4;
 }
-
-@media(max-width:599px){body{max-width:90%}}
-
-@media(min-width:600px){body{max-width:90%}}
-
-@media(min-width:900px){body{max-width:90%}}
-
-@media(min-width:1440px){body{max-width:50%}}
-
-@media(min-width:1920px){body{max-width:50%}}
-
-@media(min-width:2560px){body{max-width:50%}}
