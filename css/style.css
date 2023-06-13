@@ -111,12 +111,12 @@ img {
 
 .center {
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
-.right {
-    text-align: right;
+.nav {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -131,11 +131,28 @@ img {
     font-style: italic;
 }
 
-
-
 .sound audio {
     outline: none;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
+}
+
+.alignleft {
+    float: left;
+    text-align:left;
+    width:33.33333%;
+    margin-top: 0;
+}
+.aligncenter {
+    float: left;
+    text-align:center;
+    width:33.33333%;
+    margin-top: 0;
+}
+.alignright {
+    float: left;
+    text-align:right;
+    width:33.33333%;
+    margin-top: 0;
 }

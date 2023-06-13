@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Joshua Taylor</title>
+    <link>https://jdtaylor.net/series/</link>
+    <description>Recent content in Series on Joshua Taylor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jdtaylor.net/series/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

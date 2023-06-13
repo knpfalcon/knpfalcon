@@ -5,6 +5,25 @@
     <link>https://jdtaylor.net/tags/</link>
     <description>Recent content in Tags on Joshua Taylor</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jdtaylor.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jun 2023 19:00:00 +0000</lastBuildDate><atom:link href="https://jdtaylor.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FL Studio</title>
+      <link>https://jdtaylor.net/tags/fl-studio/</link>
+      <pubDate>Mon, 12 Jun 2023 19:00:00 +0000</pubDate>
+      
+      <guid>https://jdtaylor.net/tags/fl-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Midi</title>
+      <link>https://jdtaylor.net/tags/midi/</link>
+      <pubDate>Mon, 12 Jun 2023 19:00:00 +0000</pubDate>
+      
+      <guid>https://jdtaylor.net/tags/midi/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Joshua Taylor</title>
-    <link>https://jdtaylor.net/</link>
-    <description>Recent content in Home on Joshua Taylor</description>
+    <title>FL Studio on Joshua Taylor</title>
+    <link>https://jdtaylor.net/tags/fl-studio/</link>
+    <description>Recent content in FL Studio on Joshua Taylor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 19:00:00 +0000</lastBuildDate><atom:link href="https://jdtaylor.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 19:00:00 +0000</lastBuildDate><atom:link href="https://jdtaylor.net/tags/fl-studio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Weak MIDI Pitch Bends in FL Studio</title>
       <link>https://jdtaylor.net/posts/flstudio-midi/</link>
