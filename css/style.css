@@ -1,6 +1,7 @@
 body {
  
     max-width: 600px;
+    min-width: 600px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0 auto;
