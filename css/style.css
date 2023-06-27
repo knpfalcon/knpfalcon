@@ -141,6 +141,13 @@ ul#menu li {
     margin-top: 40px;
 }
 
+.video {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .tab {
     tab-size: 4;
 }
