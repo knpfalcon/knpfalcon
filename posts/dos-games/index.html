@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Making a game for MS-DOS. Tally Trauma. Allegro 4. DJGPP." />
+	<title>Joshua Taylor - Making a Game for DOS</title>
+	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<header>
+	<div class="center">
+		<h1><a href="https://jdtaylor.net/">Joshua Taylor</a></h1>
+		<span class = "subtitle">Coding, Music, Artwork, Games, Writing</span>
+	</div>
+</header>
+
+	<nav aria-label="Main Navigation">
+	<ul id="menu"> 
+		
+		<li><a href="/">Home</a></li>
+		
+		<li><a href="/about">About</a></li>
+		
+		<li><a href="mailto:knpfalcon@gmail.com">Contact</a></li>
+		
+		<li><a href="/tags">Tags</a></li>
+		
+	</ul> 
+</nav>
+
+	
+<main>
+	<article>
+		<h3>Making a Game for DOS</h3>
+		<div class="stuff">
+			<div class="date">
+				<time datetime=" 2023-06-26T19:00:00">06-26-2023</time>
+			</div>
+			<p>When I was a kid in the 90s, my parents refused me a <code>Super Nintendo</code>. They were of the firm belief that video games rot your brain, and maybe they were somewhat right. Either way, all my friends had one, and I was one envious little child. (I was pretty whiny about it too.) However, my sister convinced my parents to buy a PC instead, and in retrospect, I’m glad I never got that <code>Super Nintendo</code>.</p>
+<p>The brand new family computer was an <code>AST Advantage</code>. I don’t remember the exact specs, but it was either a fast <code>486</code> or a <code>Pentium I</code>. I remember using <code>Windows 3.1</code>, but I especially remember <code>MS-DOS</code>.</p>
+<p><a href="https://wiki.preterhuman.net/File:Adv6066d1.jpg"><img src="800px-Adv6066d1.jpg" alt="AST COMPUTER"></a></p>
+<p>And thus began my childhood experience with video games. I started with <code>King’s Quest VI</code>, and various shareware games that took forever to download. There weren’t many screenshots back then, so you never knew what you were downloading from <code>AOL</code>. Then my dad came home with a pirated copy of <code>Doom</code>. That took up every bit of my time after school.</p>
+<p><a href="https://en.wikipedia.org/wiki/Doom_%281993_video_game%29#/media/File:Doom_cover_art.jpg"><img src="doom.jpg" alt="DOOM"></a></p>
+<p>Nevertheless, despite my parents’ concern for my brain, I got my video games anyway. And my dad played a lot of <code>Doom</code>, so he couldn’t say much about it. Hah!</p>
+<p>Then this itch came out of nowhere. I wanted to make games like the ones I was playing. As an eight-year-old, I didn’t know crap about how to go about it. But at some point, I played a game, and as I closed it out a <code>Klik &amp; Play</code> splash popped up.</p>
+<p><a href="https://www.old-games.com/download/10350/klik-play"><img src="knp.jpg" alt="Klik & Play Splash"></a></p>
+<p>Well…I found the demo on AOL, and it was on! I convinced my parents to buy me the full version, and I tinkered with it. I never finished making any games, but it was a start.</p>
+<p>Sometime around 1997 I finally got <code>The Games Factory</code>, which was a super-version of <code>Klik &amp; Play</code>. It wasn’t until 1999 that I finished a game called <code>Ball Man: The Attack of Mudman’s Army</code>. I was twelve.</p>
+<p><a href="https://www.create-games.com/download.asp?id=7482"><img src="ballman.jpg" alt="Ball Man"></a></p>
+<p>Over the years, I played with different game engines, but I never learned to code until about ten years ago. After many failed attempts to learn from different boring sources, I picked up <code>C for Dummies</code>, and it finally clicked. Ten years ago, pointers were scary, but they seem like no big deal now. I love pointers, and I probably use them too excessively.</p>
+<p><a href="https://www.amazon.com/All-One-Desk-Reference-Dummies/dp/0764570692"><img src="cdummies.jpg" alt="C for Dummies"></a></p>
+<h3 id="creating-games-for-dos">Creating Games for DOS</h3>
+<p>Anyway, on to the point!</p>
+<p>A few years ago, I wanted to make a throwback to the <code>DOS</code> games I grew up on. So, I looked into programming for ancient machines. I’d get distracted and quit, so it’s been an off-and-on thing for years.</p>
+<p>I’ve experimented with programming <code>EGA</code> and <code>VGA</code> cards. With <code>EGA</code>, I got to the point of pulling my hair out, but I did code a tool that converted 8-bit bitmaps to planar data and got tiles to draw fairly fast on the screen. <code>VGA</code> was a bit easier. <code>Open Watcom</code> and its assembler <code>WASM</code> were my weapons of choice for that. But, I decided I just wanted to make a game, and I didn’t want to mess around with low-level stuff for now. Maybe in the future, I’ll pick back up on it. I do have a plan to eventually code a library for making 16-bit EGA games. It would be something similar to Allegro but targeting older hardware.</p>
+<p>I settled with a <code>DJGPP</code> cross-compiler and <code>Allegro 4.2.3</code>, targeting a computer similar to the <code>AST</code> I had. I got a nice little workflow going with some bash scripts on <code>Linux Mint</code>.</p>
+<h3 id="tally-trauma">Tally Trauma</h3>
+<p>I created a character with a name in the vein of <code>Halloween Harry</code> and <code>Duke Nukem</code>. Her name is <code>Tally Trauma</code>. So far, the progress has been slow–I tend to get distracted a lot–but Tally is on her way to becoming the next action hero of her own side-scrolling adventure.</p>
+<p>I just finished most of the player movement with slopes and jump-through platforms.</p>
+<div class="center">
+<div class="video">
+<video class="video-shortcode" preload="auto" controls>
+    <source src="tallyvga.mp4" type="video/mp4">
+    There should have been a video here but your browser does not seem
+    to support it.
+</video></br></br>
+
+</div>
+</div>
+
+<p>The slopes took a little research. Nowadays, it seems anytime you search anything about game development all the search results are about Unity, Game Maker, or something similar. Even with the <code>-</code> feature to exclude keywords, there is very little info. But the <code>Slope-Intercept</code> formula <code>y = mx + b</code> worked wonders. It was the answer to my prayers:</p>
+<p>Here’s a little snippet of code for the left low slope inside an <code>is_ground()</code> function.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="n">cx</span> <span class="o">+</span> <span class="n">y</span> <span class="o">*</span> <span class="n">MAP_W</span><span class="p">]</span> <span class="o">==</span> <span class="n">D_L_SLOPE_LOW_3</span> <span class="o">&amp;&amp;</span> <span class="n">check_dir</span> <span class="o">==</span> <span class="n">CHECK_V</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">int</span> <span class="n">dy</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="o">*</span> <span class="p">((</span><span class="n">center_x</span> <span class="o">-</span> <span class="n">tilex</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">TILE_SIZE</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">tiley</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="n">ay</span> <span class="o">&gt;=</span> <span class="n">dy</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">set_actor_y</span><span class="p">(</span><span class="n">actor</span><span class="p">,</span> <span class="n">dy</span> <span class="o">-</span> <span class="n">actor</span><span class="o">-&gt;</span><span class="n">h</span><span class="p">);</span>
+                <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Jump-through platforms were even worse on a Google search–only tidbits of useful info. But after a couple of hours, I came up with this and it works.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">*</span> <span class="n">MAP_W</span><span class="p">]</span> <span class="o">==</span> <span class="n">H_JUMPTHRU_7</span> <span class="o">&amp;&amp;</span> <span class="n">check_dir</span> <span class="o">==</span> <span class="n">CHECK_V</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">actor</span><span class="o">-&gt;</span><span class="n">is_player</span> <span class="o">&amp;&amp;</span> <span class="n">pkey</span><span class="p">[</span><span class="n">P_KEY_DOWN</span><span class="p">])</span> <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+            <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">actor</span><span class="o">-&gt;</span><span class="n">dy</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">actor</span><span class="o">-&gt;</span><span class="n">bottom</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&gt;</span> <span class="n">tiley</span> <span class="o">&amp;&amp;</span> <span class="n">actor</span><span class="o">-&gt;</span><span class="n">bottom</span> <span class="o">-</span> <span class="n">actor</span><span class="o">-&gt;</span><span class="n">dy</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">&lt;=</span> <span class="n">tiley</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">set_actor_y</span><span class="p">(</span><span class="n">actor</span><span class="p">,</span> <span class="n">tiley</span> <span class="o">-</span> <span class="n">actor</span><span class="o">-&gt;</span><span class="n">h</span><span class="p">);</span>
+                <span class="n">stop_actor_y</span><span class="p">(</span><span class="n">actor</span><span class="p">);</span>
+                <span class="n">actor</span><span class="o">-&gt;</span><span class="n">on_ground</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+                <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>I’m thoroughly enjoying myself, but please pray for me, people. I really want to finish this one.</p>
+
+			<tags>
+  <div class="tags">
+      
+     
+        <div class="tag" style="display: inline; font-size: 10pt;">
+            <a href="https://jdtaylor.net/tags/tally-trauma/">Tally Trauma</a>
+        </div>
+      
+     
+        <div class="tag" style="display: inline; font-size: 10pt;">/
+            <a href="https://jdtaylor.net/tags/c-programming/">C Programming</a>
+        </div>
+      
+     
+        <div class="tag" style="display: inline; font-size: 10pt;">/
+            <a href="https://jdtaylor.net/tags/dos-programming/">DOS Programming</a>
+        </div>
+      
+    </div>
+
+</tags>
+
+		</div>
+		
+	</article>
+</main>
+
+	<footer>
+	<div class="center" style="color: darkgray; font-size: 12pt;">&copy; 2023 Joshua Taylor</div>
+</footer>
+
+</body>
+
+</html>
