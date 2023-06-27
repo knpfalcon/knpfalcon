@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jdtaylor.net/tags/c-programming/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jdtaylor.net/tags/dos-programming/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jdtaylor.net/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jdtaylor.net/posts/dos-games/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jdtaylor.net/posts/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jdtaylor.net/tags/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jdtaylor.net/tags/tally-trauma/</loc>
+    <lastmod>2023-06-26T19:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jdtaylor.net/tags/fl-studio/</loc>
     <lastmod>2023-06-12T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jdtaylor.net/</loc>
-    <lastmod>2023-06-12T19:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jdtaylor.net/tags/midi/</loc>
-    <lastmod>2023-06-12T19:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jdtaylor.net/posts/</loc>
-    <lastmod>2023-06-12T19:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jdtaylor.net/tags/</loc>
     <lastmod>2023-06-12T19:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jdtaylor.net/posts/flstudio-midi/</loc>

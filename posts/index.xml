@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Joshua Taylor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 19:00:00 +0000</lastBuildDate><atom:link href="https://jdtaylor.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 19:00:00 +0000</lastBuildDate><atom:link href="https://jdtaylor.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Game for DOS</title>
+      <link>https://jdtaylor.net/posts/dos-games/</link>
+      <pubDate>Mon, 26 Jun 2023 19:00:00 +0000</pubDate>
+      
+      <guid>https://jdtaylor.net/posts/dos-games/</guid>
+      <description>When I was a kid in the 90s, my parents refused me a Super Nintendo. They were of the firm belief that video games rot your brain, and maybe they were somewhat right. Either way, all my friends had one, and I was one envious little child. (I was pretty whiny about it too.) However, my sister convinced my parents to buy a PC instead, and in retrospect, I’m glad I never got that Super Nintendo.</description>
+    </item>
+    
     <item>
       <title>Weak MIDI Pitch Bends in FL Studio</title>
       <link>https://jdtaylor.net/posts/flstudio-midi/</link>
