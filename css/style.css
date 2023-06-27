@@ -141,11 +141,9 @@ ul#menu li {
     margin-top: 40px;
 }
 
-.video {
-    display: block;
-    max-width: 90%;
-    height: auto;
-    margin: 0 auto;
+video {
+    width: 100% !important;
+    height: auto !important;
 }
 
 .tab {
