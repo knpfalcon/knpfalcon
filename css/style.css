@@ -143,8 +143,6 @@ ul#menu li {
 
 .video {
     display: block;
-    border-style: inset;
-    max-width: 90%;
     height: auto;
 }
 
