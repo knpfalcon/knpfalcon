@@ -81,10 +81,17 @@
 /* GenericUnderline */ .chroma .gl {  }
 /* TextWhitespace */ .chroma .w { color: #888888 }
 
+
 code {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+
+p>code {
+    color: rgb(255, 198, 128);
+    font-style: italic;
+    background-color: #3b3b3b;
 }

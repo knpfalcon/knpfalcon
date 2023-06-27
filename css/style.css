@@ -43,10 +43,6 @@ p {
     text-align: justify;
 }
 
-p>code {
-    color: rgb(255, 198, 128);
-}
-
 ul {
     list-style-type: none;
     padding: 0;
